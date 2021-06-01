@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d3822d5-9acd-4598-aaf8-43bafed2bb9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/moviles1/parcial/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/moviles1/parcial/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/moviles1/parcial/home.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/moviles1/parcial/home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/moviles1/parcial/signUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/moviles1/parcial/signUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_reset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_reset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_reset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_reset.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/content_log_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/content_log_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/themes.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1tGxcPcZzsfBsgk2ZkxByFySd5i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d3822d5-9acd-4598-aaf8-43bafed2bb9b" name="Default Changelist" comment="" />
+      <created>1622409305263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622409305263</updated>
+    </task>
+    <servers />
+  </component>
+</project>
