@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248816022205",
+    "project_id": "merkao-bcad2",
+    "storage_bucket": "merkao-bcad2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248816022205:android:21d5f8def0491fc21afdd4",
+        "android_client_info": {
+          "package_name": "com.moviles1.parcial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248816022205-cjdhomeqf0756u03p3t29omnbr07reta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjI1MAwebLn3i3iEEcXeyFtFqNN4zI8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248816022205-cjdhomeqf0756u03p3t29omnbr07reta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

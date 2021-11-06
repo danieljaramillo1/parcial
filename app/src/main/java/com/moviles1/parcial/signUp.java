@@ -7,8 +7,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class signUp extends AppCompatActivity
@@ -19,6 +21,9 @@ public class signUp extends AppCompatActivity
     EditText etPassword2;
     Button btSaveData;
     View tvBackToIn;
+    Spinner sList;
+    EditText etPais;
+    EditText etCiudad;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -29,7 +34,16 @@ public class signUp extends AppCompatActivity
         etBirth = findViewById(R.id.etBirth);
         etPassword2 = findViewById(R.id.etPassword2);
         tvBackToIn = findViewById(R.id.tvBackToIn);
+        etPais = findViewById(R.id.etPais);
+        etCiudad = findViewById(R.id.etCiudad);
+        sList = findViewById(R.id.sList);
 
+        String [] opciones = {"User","Shop"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,opciones);
+        sList.setAdapter(adapter);
+
+        String selection = sList.getSelectedItem().toString();
+        sList.setPrompt(selection);
 
     }
 

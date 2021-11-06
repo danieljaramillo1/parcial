@@ -10,8 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class home extends AppCompatActivity {
+import com.moviles1.parcial.databinding.ActivityHomeBinding;
 
+public class home extends AppCompatActivity {
+    Button boton;
     Button btlogOut;
     TextView tvName;
     TextView tvEmail;
@@ -21,11 +23,13 @@ public class home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_home);
         btlogOut = findViewById(R.id.btlogOut);
         tvName =findViewById(R.id.tvName);
         tvEmail =findViewById(R.id.tvEmail);
         tvBirth =findViewById(R.id.tvBirth);
+        boton = findViewById(R.id.button);
 
         SharedPreferences preferencias = getSharedPreferences("uservalues", Context.MODE_PRIVATE);
         String userEmail = preferencias.getString("email","error");
@@ -49,6 +53,12 @@ public class home extends AppCompatActivity {
 
        SharedPreferences pref = getSharedPreferences("", Context.MODE_PRIVATE);
        Intent changeScreen = new Intent(home.this, MainActivity.class);
+       startActivity(changeScreen);
+   }
+
+   public void tolist(View v)
+   {
+       Intent changeScreen = new Intent(home.this, showProduct.class);
        startActivity(changeScreen);
    }
 

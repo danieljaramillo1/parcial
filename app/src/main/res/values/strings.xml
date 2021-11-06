@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">parcial</string>
+    <string name="app_name">Merkao Livre</string>
     <string name="email">E-mail</string>
     <string name="password">Password</string>
     <string name="in">Sign In</string>
     <string name="dont">Don´t have an account?<b style="color:white">Sign Up</b></string>
     <string name="forgot">Forgot Password?</string>
     <string name="signup"><b>SIGN UP</b></string>
-    <string name="birth">Birthday</string>
+    <string name="birth">Shop Name</string>
     <string name="name">Name</string>
     <string name="up">Sign Up</string>
     <string name="already">Already have an account?<b style="color:white">Sign in</b></string>
@@ -18,7 +18,8 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
+    <string name="btnedit">Edit</string>
+    <string name="btndelete">Delete</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
