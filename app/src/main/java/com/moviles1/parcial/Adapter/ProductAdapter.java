@@ -21,6 +21,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     public ProductAdapter(Context context, ArrayList<Product> productArrayList)
     {
         this.context = context;
+        this.productArrayList = productArrayList;
 
     }
 
@@ -39,9 +40,9 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         Product product = productArrayList.get(position);
         holder.itemBinding.tvProductName.setText(product.getName());
         holder.itemBinding.tvCategory.setText(product.getCategory());
-        holder.itemBinding.tvPrice.setText(product.getPrice());
+        holder.itemBinding.tvPrice.setText(String.valueOf(product.getPrice()));
         holder.itemBinding.tvDescription.setText(product.getDescription());
-        holder.itemBinding.tvStock.setText(product.getStock());
+        holder.itemBinding.tvStock.setText(String.valueOf(product.getStock()));
 
     }
 

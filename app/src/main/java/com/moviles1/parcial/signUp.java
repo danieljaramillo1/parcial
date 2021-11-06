@@ -17,7 +17,7 @@ public class signUp extends AppCompatActivity
 {
     EditText etName;
     EditText etEmail2;
-    EditText etBirth;
+    EditText etShopName;
     EditText etPassword2;
     Button btSaveData;
     View tvBackToIn;
@@ -31,7 +31,7 @@ public class signUp extends AppCompatActivity
         setContentView(R.layout.activity_sign_up);
         etName = findViewById(R.id.etName);
         etEmail2 = findViewById(R.id.etEmail2);
-        etBirth = findViewById(R.id.etBirth);
+        etShopName = findViewById(R.id.etShopName);
         etPassword2 = findViewById(R.id.etPassword2);
         tvBackToIn = findViewById(R.id.tvBackToIn);
         etPais = findViewById(R.id.etPais);
@@ -52,9 +52,10 @@ public class signUp extends AppCompatActivity
         String email = etEmail2.getText().toString();
         String password = etPassword2.getText().toString();
         String name = etName.getText().toString();
-        String birth = etBirth.getText().toString();
-
-        if(email.isEmpty()||password.isEmpty()||name.isEmpty()||birth.isEmpty())
+        String shopName = etShopName.getText().toString();
+        String pais = etPais.getText().toString();
+        String ciudad = etCiudad.getText().toString();
+        if(email.isEmpty()||password.isEmpty()||name.isEmpty()||shopName.isEmpty()||pais.isEmpty()||ciudad.isEmpty())
         {
             Toast.makeText(this, "Ningun campo puede estar vacio", Toast.LENGTH_SHORT).show();
         }
@@ -68,8 +69,10 @@ public class signUp extends AppCompatActivity
             SharedPreferences.Editor editor = preferences.edit();
             editor.putString("name", name);
             editor.putString("email", email);
-            editor.putString("birth", birth);
+            editor.putString("shopName", shopName);
             editor.putString("password", password);
+            editor.putString("pais",pais);
+            editor.putString("ciudad", ciudad);
             editor.commit();
         }
 
